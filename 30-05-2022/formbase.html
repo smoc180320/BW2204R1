@@ -5,40 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel=”stylesheet” type=”text/css” href=”style.css”>
+    <style>
+        body {
+            font-family:'Courier New', Courier, monospace;
+        }
+        #th {
+            background-color:rgb(221, 81, 42);
+            color: aliceblue;
+        }
+        #align {
+            color: blue;
+            text-align: right;
+        }
+        .color {
+            color:rgb(221, 81, 42);
+        }
+    </style>
     
 </head>
 <body>
-    <h2> Thời Khóa Biểu</h2>
-    <table>    
+   
+    <table>
         <tr>
-            <th rowspan=2>Thứ</th>
-            <th colspan=2>Hoạt động</th>
+            <th id="th" colspan="4">SỞ THÍCH CỦA BẠN</th>
         </tr>
         <tr>
-            <th>Sáng</th>
-            <th>Chiều</th>
+            <td id="align">
+                <label for="">Họ và tên</label>
+                
+            </td>
+            <td colspan="3">
+                <input type="text" name="" id="" size="40px">
+            <td>
+            
         </tr>
         <tr>
-            <td>Thứ Hai</td>
-            <td>Thể dục</td>
-            <td>HD trò chơi mới</td>
+            <td id="align">
+                <label  for="">Email</label>
+            </td>
+            <td colspan="3">
+                <input type="text" name="" id="">
+            </td>
         </tr>
         <tr>
-            <td>Thứ 3</td>
-            <td>Nhận biết tập nói</td>
-            <td>Rèn nề nếp,kỹ năng sống</td>
+            <td id="align">
+                <label for="">Sở thích</label>
+            </td >
+            <td class="color">
+                <input  type="checkbox">Thể thao
+            </td>
+            <td class="color">
+                <input  type="checkbox">Âm nhạc
+            </td>
+            <td class="color">
+                <input type="checkbox">Đọc sách 
+            </td>
         </tr>
         <tr>
-            <td>Thứ 4</td>
-            <td>Âm Nhạc </td>
-            <td>Vui chơi</td>
+            <td></td>
+            <td class="color">
+                <input type="checkbox">Lướt web
+            </td>
+            <td class="color">
+                <input id="color" type="checkbox">Chơi game
+            </td>
+            <td class="color">
+                <input type="checkbox">Điện ảnh
+            </td>
         </tr>
         <tr>
-            <td>Thứ 5</td>
-            <td>Văn Học</td>
-            <td>Nhận Biết các giá trị sống</td>
+            <td></td>
+            <td class="color"> 
+                <input type="checkbox">Du lịch
+            </td>
         </tr>
+        <tr>
+            <td></td>
+            <td colspan="3">
+                <button type="submit">Đăng ký thông tin</button>
+                <button type="reset">Nhập lại</button>
+            </td>
+        </tr>
+
     </table>
+
 </body>
 </html>
