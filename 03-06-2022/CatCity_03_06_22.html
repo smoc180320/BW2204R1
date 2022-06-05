@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat City</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgb(195, 255, 0), rgb(204, 165, 113), orange);
+            align-items: center;
+        }
+        h1 {
+            color: rgb(17, 2, 149);
+            border: 4px inset rgba(195, 54, 54, 0.715);
+            border-radius: 15px;
+            background-color: rgb(255, 209, 192);
+            text-align: center;
+            font-size: 30pt;
+        }
+        #pic1 {
+            width: 90%;
+            border: 3px inset rgba(195, 54, 54, 0.715);
+            border-radius: 50px;
+            margin: 1% 5% 2% 5%;
+        }
+        table {
+            align-items: center;
+            margin-left: 1%;
+            margin-right: 1%;
+            background-image: linear-gradient(rgb(177, 233, 64), rgb(164, 223, 241), rgb(192, 255, 231), rgb(8, 241, 222));
+            border-radius: 20px;
+        }
+        #pic2 {
+            width: 300px;
+            height: 800px;
+            border-radius: 20px;
+            border: 3px solid whitesmoke;
+            margin-top: 0%;
+        }
+        #pic3 {
+            width: 300px;
+            height: 800px;
+            border-radius: 20px;
+            border: 3px solid whitesmoke;
+        }
+       
+        #col_center {
+            width: 10000px;
+        }
+        .name {
+            color: rgb(17, 2, 149);
+            font-size: 20pt;
+            font-weight: bold;
+        }
+        #s1 {
+            width: 90%;
+            height: 25px;
+            border: 3px inset rgba(195, 54, 54, 0.715);
+            border-radius: 8px;
+            background-color: pink;
+            font-size: 16pt;
+            margin-top; 500px;
+        }
+        select {
+            background-color: pink;
+            font-size: 19pt;
+            width:200px;
+            border: 3px inset rgba(195, 54, 54, 0.715);
+            border-radius: 8px;
+        }
+        form {
+            font-size: 20pt;
+            color: rgb(8, 66, 240);
+        }
+        #t1 {
+            width: 99%;
+            height: 25px;
+            border: 3px inset rgba(195, 54, 54, 0.715);
+            border-radius: 8px;
+            background-color: pink;
+        }
+        #para {
+            width: 99%;
+            height: 300px;
+            border: 3px inset rgba(195, 54, 54, 0.715);
+            border-radius: 8px;
+            background-color: pink;
+        }
+        #s2 {
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cat City ID Registration</h1>
+    <img src="./cat_background.jpg" alt="" id="pic1">
+    <br>
+        <table>
+            <td>
+                <img src="./Cat_November_2010-1a.jpg" alt="" id="pic2">
+            </td> 
+            <td id="col_center">
+                <form action="">
+                    <label class="name"> Name:</label> <br>
+                    <input id="s1" type="text" name=""><br>
+                    <br>
+                    <label class="name">Age:</label><br>
+                    <input id="s1" type="number" name=""><br>
+                    
+                    <p class="name">Gender:</p>
+                    <form action="">
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female  
+                        <input type="radio" name="gender" value="Other"> Other
+                    </form>
+                    <br>
+                    <p class="name">Fur color:</p>  
+                    <form action="">
+                        <input type="radio" name="color" value="Đen">Đen
+                        <input type="radio" name="color" value="Trắng"> Trắng  
+                        <input type="radio" name="color" value="Vàng"> Vàng
+                    </form>
+                
+                    <br>
+                        
+                    <p class="name">Cat loves to:</p>  
+                    <form action="">
+                        <input type="checkbox"> Eat
+                        <input type="checkbox"> Drink Milk 
+                        <input type="checkbox"> Sleep
+                    </form>
+                    
+                    <br>
+                    
+                    <p class="name">Cat Hates:</p>  
+                    <form action="">
+                        <input type="checkbox"> Bath
+                        <input type="checkbox"> Hug 
+                        <input type="checkbox"> Other cat
+                    </form>
+                    
+                    <br>
+                    
+                    <p class="name">Cat Breed:
+                    <select>
+                        <option value="Siamese">Siamese</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Maine Coon">Maine Coon</option>
+                        <option value="Ragdoll">Ragdoll</option>
+                        <option value="Bengal">Bengal</option>
+                    </select>
+                    </p>
+                    
+                    <br>
+                
+                    <label class="name">Cat ID:</label><br>  
+                    <input type="text" name="" id="t1"><br>
+                    
+                    <br>
+                    
+                    <label class="name">Other information:</label><br>  
+                    <textarea name="paragraph_text" id="para"></textarea>
+                    
+                    <br>
+                    <input type="reset" value="Reset" id="s2">
+                    <input type="submit" value="Finish" id="s2">
+                </form>
+        </td>
+        <td>
+            <img src="./Gatto_europeo4.jpg" alt="" id="pic3">
+        </td>
+    </table>
+        
+
+
+
+</body>
+</html>
