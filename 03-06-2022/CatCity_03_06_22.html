@@ -7,7 +7,7 @@
     <title>Cat City</title>
     <style>
         body {
-            background-image: linear-gradient(rgb(195, 255, 0), rgb(204, 165, 113), orange);
+            background-image: linear-gradient(blue, rgb(195, 255, 0), rgb(204, 165, 113), orange, blue);
             align-items: center;
         }
         h1 {
@@ -18,7 +18,7 @@
             text-align: center;
             font-size: 30pt;
             margin-left: 5%;
-            margin-right: 5%;
+            margin-r#ight: 5%;
         }
         #pic1 {
             width: 90%;
@@ -27,9 +27,9 @@
             margin: 1% 5% 2% 5%;
         }
         table {
+            display: block;
             align-items: center;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin: auto;
             background-image: linear-gradient(rgb(177, 233, 64), rgb(164, 223, 241), rgb(192, 255, 231), rgb(8, 241, 222));
             border-radius: 20px;
         }
@@ -112,13 +112,13 @@
             </td> 
             <td id="col_center">
                 <form action="">
-
-                    <label class="name"> Name:</label> <br>
-                    <input id="s1" type="text" name=""><br>
-                    <br>
-                    <label class="name">Age:</label><br>
-                    <input id="s1" type="number" name=""><br>
-                    
+                    <div>
+                        <label class="name"> Name:</label> <br>
+                        <input id="s1" type="text" name=""><br>
+                        <br>
+                        <label class="name">Age:</label><br>
+                        <input id="s1" type="number" name=""><br>
+                    </div>    
                     <p class="name">Gender:</p>
                     <form action="">
                         <input type="radio" name="gender" value="Male"> Male
