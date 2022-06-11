@@ -1,0 +1,50 @@
+html, body {
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+#log1, #log2, #log3 {
+    background-color: aqua;
+}
+#log7 {
+    background-color: red;
+}
+#log1 {
+    width: 30%;
+    height: 15%;
+}
+#log2 {
+    width: 70%;
+    height: 15%;
+}
+#log3 {
+    width: 100%;
+    height: 10%;
+}
+#log4 {
+    width: 20%;
+    height: 60%;
+}
+#log5 {
+    width: 60%;
+    height: 60%;
+}
+#log6 {
+    width: 20%;
+    height: 60%;
+}
+#log7 {
+
+    width: 100%;
+    height: 20%;
+}
+
