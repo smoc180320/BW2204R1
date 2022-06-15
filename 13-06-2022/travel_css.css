@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    /* postion fixed giữ cho 1 đoạn bố cục ví dụ như header khi cuộn trang xuống luôn đứng đúng vị trí của nó  */
+}
+#logo {
+    height: 80%;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+}
+#nav-menu {
+    list-style-type: none;
+    float: left;
+}
+/* CSS cha con element theo đường dẫn "#nav-menu li" */
+/* ngoài ra còn có CSS loại như "#nav-menu ~ li dùng cho các thể có cùng địa chỉ */
+#nav-menu li {
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+/* CSS cho element trực tiếp cho thuộc tính cấp 1 ví dụ sau chỉ áp dụng button trực tiếp đứng sau header */
+header > button {
+    float: right;
+    width: 60px;
+    height: 100%;
+    background-color: #205C40;
+    margin-right: 50px;
+    border: none;
+    color: white;
+
+}
+/* CSS cho div chỉ đứng sau header, không áp dụng cho các thẻ div khác */
+header + div {
+    padding-top: 4%;
+}
+div img {
+    width: 40%;
+}
+
+div div {
+    width: 60%;
+}
+.left {
+    float: left;
+}
+.intro {
+    width: 60%;
+    text-align: right;
+    padding: 10%;
+    box-sizing: border-box;
+}
+.intro h1 {
+    color: #205C40;
+    font-weight: bold;
+}
+.intro p {
+    color: grey;
+    font-weight: bold;
+}
+.content {
+    clear: both;
+    height: 60%;
+    background-color: #205C40;
+    margin-top: 20px;
+    padding: 0 10%;
+}
+.content p {
+    width: 40%;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.content img {
+    width: 50%;
+    float: left;
+    height: 100%;
+    position: relative;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* thuộc tính position relative sẽ di chuyển nội dung theo 4 hướng */
+}
+
