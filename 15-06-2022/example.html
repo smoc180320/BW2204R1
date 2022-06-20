@@ -7,9 +7,14 @@ div {
   height: 100px;
   background-color: red;
   position: relative;
-  animation-name: example;
+  /* tại tên cho hiệu ứng */
+  animation-name: example; 
+/* thời gian chạy hiệu ứng */
   animation-duration: 4s;
-  animation-direction: reverse;  
+  /* chiều hiệu ứng */
+  animation-timing-function: linear;
+  animation-direction:alternate-reverse;
+  animation-iteration-count: infinite;
 }
 
 @keyframes example {
@@ -23,7 +28,6 @@ div {
 </head>
 <body>
 
-<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
 
 <div></div>
 
