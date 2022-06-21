@@ -4,7 +4,6 @@ html, body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
-    display: block;
     font-family: Tahoma, sans-serif;
     font-size: 16px;
 }
@@ -13,6 +12,7 @@ header {
     height: 80x;
     width: 100%;
     background-color: rgb(200, 200, 200);
+   
 
 }
 header img {
@@ -22,9 +22,11 @@ header img {
     width: auto;
 }
 .box {
+  
     background-color: rgb(200, 200, 200);
     width: 100%;
     height: 50x;
+   
 }
 /* menu */
 table {
@@ -39,6 +41,19 @@ table {
 #line1 {
     padding: 0 20px 0 20px;
 }
+.khung {
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    margin-top: 10px;
+    width: 67%;
+    height: 80%;
+    float: left;
+    order: 2;
+    
+
+}
 /* danh sách phim */
 .list-phim {
     margin-top: 10px;
@@ -46,6 +61,7 @@ table {
     width: 30%;
     height: 80%;
     float: left;
+    order: 1;
 }
 .list-phim iframe {
     width: 95%;
@@ -60,13 +76,6 @@ a:hover {
     color: red;
 }
 /* trang chính */
-.main {
-    margin-top: 10px;
-    width: 67%;
-    height: 80%;
-    float: left;
-
-}
 footer {
     clear: both;
     text-align: center;
@@ -77,4 +86,19 @@ footer {
 }
 .text {
     color: rgb(80, 78, 78);
+}
+@media screen and (max-width: 720px) {
+    .khung {
+        flex-direction: column;
+    }
+    .main {
+        width: 100%;
+        height: 40%;
+        order: 1;
+    }
+    .list-phim {
+        width: 100%;
+        height: 30%;
+        order: 2;
+    }
 }
