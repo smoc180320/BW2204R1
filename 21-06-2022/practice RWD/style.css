@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+header {
+    padding-left: 0.8%;
+}
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    border: 1px solid gray;
+    flex-basis: 23%;
+    height: auto;
+}
+.picture {
+    width: 100%;
+    height: auto;
+}
+.box p {
+    text-align: center;
+}
+.text {
+    padding-left: 1.6%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .box {
+        flex-basis: 47%;
+        margin-bottom: 2%;
+
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .box {
+        flex-basis: 95%;
+        margin-bottom: 2%;
+
+    }
+
+}
