@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nguyên Phong Book with Bootstrap</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- 1 Owl Carousel min.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 2. owl carousel theme.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+    <section>
+        <div class="container-fluid my-5">
+            <h1 class="text-center fw-bold display-1 mb-3">Nguyên Phong's <span class="text-danger">Books</span> </h1>
+            <div class="row mt-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./img/IMG_6645.jpeg" alt="image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Muôn Kiếp Nhân Sinh</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./img/dau-chan-tren-cat.jpg" alt="image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Dấu Chân Trên Cát</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./img/IMG_2233.jpg" alt="image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Đường Mây Qua Xứ Tuyết</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./img/image-20210129170358-1.jpeg" alt="image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Bên Rặng Tuyết Sơn</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./img/img1.png" alt="image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Hành Trình Về Phương Đông</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./img/2020_04_09_16_37_26_1.jpg" alt="image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Ngọc Sáng Trong Hoa Sen</h4>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+  
+
+
+
+
+    <!-- 0. jQuery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- 1.owl carousel Min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- js -->
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+    </script>
+</html>

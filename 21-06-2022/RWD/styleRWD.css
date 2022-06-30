@@ -6,6 +6,7 @@ html, body {
     width: 100%;
     font-size: 20px;
 }
+
 header {
     width: 100%;
     height: 70px;
@@ -21,7 +22,7 @@ header {
 #box1 {
     margin-left: 5px;
     height: 70px;
-    width: 70%;
+    width: 30%;
     text-align: center;
 }
 #box2 {
@@ -58,10 +59,10 @@ section {
     background-color: rgb(169, 168, 168);
 }
 .ads div {
-    margin-top: 30px;
-    padding-top: 70px;
+    margin: 30px;
+    padding-top: 15%;
     width: 80%;
-    height: 110px;
+    height: 15%;
     text-align: center;
     border: 1px solid rgb(0, 0, 0);
 }
@@ -77,4 +78,46 @@ footer {
     padding-top: 55px;
     color: white;
     font-size: 25px;
+}
+@media only screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+    .main {
+        order: 1;
+        width: 100%;
+        height: 50%;
+        
+    }
+    .link {
+        order: 3;
+        width: 100%;
+        height: 10%;
+        flex-direction: row;
+        justify-content: center;
+        padding: 10px;
+        background-color: rgb(150, 215, 194);
+    }
+    .ads {
+        order: 2;
+        width: 100%;
+        height: 40%;
+    }
+    .ads div {
+        width: 80%;
+        height: 150px;
+        text-align: center;
+        border: 1px solid rgb(0, 0, 0);
+        padding-top: 50px;
+    }
+    footer {
+        padding-top: 30px;
+    }
+    #box1 {
+        width: 80%;
+    }
+    #box2 {
+        margin-right: 5px;
+        width: 20%;
+    }
 }
