@@ -8,4 +8,8 @@ html, body {
 
 .container {
     background-color: blueviolet;
+    overflow: scroll;
 }
+/* #sign {
+    padding-left: 10rem;
+} */
