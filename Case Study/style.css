@@ -14,7 +14,7 @@ header {
     height: 120px;
     width: 100%;
     display: flex;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 800;
     justify-content: space-evenly;
     align-items: center;    
@@ -39,5 +39,5 @@ header img {
     color: white;
 }
 .item a:hover {
-    color: blue;
+    color: rgb(151, 151, 173);
 }
