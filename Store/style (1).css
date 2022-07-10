@@ -23,17 +23,22 @@ html, body {
 }
 
 header {
-  height: 15vmin;
-  width: 90%;
+  height: 25vmin;
+  width: 70%;
   margin: auto;
+}
+.menu {
+
 }
 .navbar {
   font-weight: bold;
 }
+.navbar-nav {
+  margin-left: 0vmin;
+}
 .container-fluid .row .col-md-6 img {
   height: 5vmin;
   width: auto;
-  margin-left: 20vmin;
 }
 .container-fluid .row .col-md-6 p {
   font-size: 24px;
@@ -73,12 +78,16 @@ header {
 }
 .sign-account {
   margin-right: 160px;
-  color: gray;
 }
 .sign-account a {
   text-decoration: none;
   color: gray;
+  font-size: 17px;
+  margin-top: 2px;
 }
 .sign-account i{
   font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link, .collapse div, .menu .sign-account a, .col-md-6 .me-2 i{
+  color: #902F77;
 }
