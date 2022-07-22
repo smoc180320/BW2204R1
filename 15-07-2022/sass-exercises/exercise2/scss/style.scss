@@ -1,0 +1,32 @@
+$small: 576px;
+$medium: 768px;
+
+
+
+@mixin layout($color, $size:14px) {
+    background-color: rgba(invert($color:$color), 0.7)
+    color: $color;
+    font-size: $size;
+    padding: $size;
+    margin: size;
+    line-height: calc($size*1.5);
+    border: 5px solid $color
+
+}
+
+#container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    @include layout (darkred, 14px)
+}
+@media screen and (min-width: $small) and (max-width: $medium) {
+    #container {
+        @include layout(darkblue, 16px)
+    }
+}
+@media screen and (min-width: $medium){
+    #container {
+        @include layout(green, 18px)
+    }
+    
+}
+    

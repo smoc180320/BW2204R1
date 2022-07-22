@@ -1,0 +1,49 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("./images/header-background.jpg");
+  background-repeat: no-repeat;
+}
+
+body .container-fluid {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body .primary-color {
+  color: white;
+}
+
+body .primary-bg {
+  background-color: white;
+}
+
+body .secondary-color {
+  color: #F8B547;
+}
+
+body .secondary-bg {
+  background-color: #F8B547;
+}
+
+body .primary-border {
+  border: 2px solid white;
+}
+
+body .secondary-border {
+  border: 2px solid #F8B547;
+}
+
+body .btn-register:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #F8B547;
+}
+
+body .btn-discover:hover {
+  background-color: black;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

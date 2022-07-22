@@ -1,0 +1,45 @@
+body {
+  font-family: "Gotu", sans-serif;
+  font-size: 16px;
+}
+
+#container {
+  max-width: 800px;
+  margin: auto;
+}
+#container h1 {
+  color: navy;
+  text-align: center;
+}
+#container nav ul {
+  list-style: none;
+  display: flex;
+}
+#container nav li {
+  width: 33%;
+  background-color: lightskyblue;
+  outline: 2px solid navy;
+  text-align: center;
+}
+#container nav li a {
+  text-decoration: none;
+  color: navy;
+  transition: 1s;
+}
+#container nav li:hover {
+  background-color: navy;
+}
+#container nav li:hover a {
+  color: lightskyblue;
+}
+
+@media screen and (max-width: 649px) {
+  nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li {
+    width: 80% !important;
+  }
+}/*# sourceMappingURL=style.css.map */
