@@ -1,0 +1,32 @@
+.source-page {
+    display: block;
+}
+.source-page h6 {
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.source-page h6 a{
+    color: #fff;
+    text-decoration: none;
+}
+.source-page h6 a:hover {
+    color: #8c363e;
+}
+.container h5 {
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.container .row .col-md-8 {
+    margin: auto;
+}
+.container p {
+    font-size: 18px;
+    color: #fff;
+}
+#text-john {
+    color: #fff;
+}

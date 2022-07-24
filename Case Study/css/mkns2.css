@@ -1,0 +1,44 @@
+.source-page {
+    display: block;
+}
+.source-page h6 {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.source-page h6 a{
+    color: #fff;
+    text-decoration: none;
+}
+.source-page h6 a:hover {
+    color: #8c363e;
+}
+.container h5 {
+    letter-spacing: 0.5px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.container .row .col-md-8 {
+    margin: auto;
+}
+.container p {
+    font-size: 18px;
+    color: #fff;
+}
+.report {
+   text-align: end;
+}
+.report1 {
+    border-bottom: 1px solid #fff;
+}
+
+
+#form-submit {
+    margin-left: 40%
+}
+.section-heading {
+    border: none !important;
+}
