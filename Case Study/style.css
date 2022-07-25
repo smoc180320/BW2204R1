@@ -52,11 +52,12 @@ ul {
 ul li {
     display: inline-block;
 }
-/* menu bar */
+
 
 .container {
     margin: 0 auto;
 }
+/* menu bar */
 .main-menu {
     padding: 0;
 }
