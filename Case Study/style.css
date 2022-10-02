@@ -141,6 +141,7 @@ ul li {
     color: #fff;
     font-size: 14px;
     transition: all 0.5s;
+
 }
 
 .menu .social-network ul li a:hover {
@@ -254,6 +255,9 @@ ul li {
     color: #fff;
     letter-spacing: 0.5px;
 }
+
+
+
 /* button */
 
 
@@ -327,14 +331,16 @@ ul li {
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
     height: 90%;
-    
+    width: 100%!important;
 }
 .mkns-item1 {
+    margin: auto;
     margin-bottom: 10px;
     padding: 10px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
-    width: 100%;
+    height: 100% !important;
+    width: 100% !important;
 }
 
 
@@ -367,11 +373,14 @@ ul li {
 }
 /* hanh trinh ve phuong dong */
 .htpd-content {
-    margin: 0 10px 20px 10px;
+    margin: auto;
+    margin-bottom: 10px;
     padding: 10px;
     background-color: rgba(250, 250, 250, 0.1);
     transition: all 0.5s;
+    width: 100% !important;
 }
+
 
 /* Các sách hay khác */
 
@@ -389,9 +398,14 @@ ul li {
     text-decoration: none;
     color: #fff;
 }
-.book-other a:hover{
+.card-body:hover, .card-title:hover{
+    background-color: #913F63;
+    transition: all 0.5s;
+    z-index: 9999;
     color: #fff;
 }
+
+
 
 /* Book Store */
 .store {
@@ -570,7 +584,7 @@ section.contact-me {
     .menu {        
         width: 300px;
         left: -300px;
-        top: 75px;
+        top: 60px;
     }
     #check:checked ~ .menu{
         left: 0;
@@ -588,6 +602,7 @@ section.contact-me {
         visibility: visible;
         position: fixed;
         z-index: 9999;
+        top:0;
       }
     .menu .soial-icons {
         padding: 10px;

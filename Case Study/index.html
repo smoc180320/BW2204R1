@@ -87,9 +87,11 @@
         </div>
       </div>
 <!-- Giới thiệu Blog -->
-      <section class="section" data-section="nguyenphong">
+      
+      </section>
+      <section class="section mt-5" data-section="nguyenphong">
         <div class="container">
-          <div class="section-heading m-auto pt-5 pb-5 text-center">
+          <div class="section-heading m-auto pb-5 text-center">
             <h2>Hội bạn đọc tác phẩm Nguyên Phong</h2>
             <div class="line-dec"></div>
             <span
@@ -205,7 +207,7 @@
           </div>
           
           <div class="row">
-            <div class="mkns-item1 col-md-12 col-sm-12">
+            <div class="mkns-item1">
               <img src="image/img-5439.jpeg" alt="" />
             </div>
             <div class="col-md-6 col-sm-12">
@@ -313,7 +315,7 @@
             >
           </div>
           <div class="mkns-item1">
-            <img src="image/dau-chan-tren-cat-1.jpeg" alt="" />
+            <img id="dctc" src="image/dau-chan-tren-cat-1.jpeg" alt="" />
           </div>
           <div class="htpd-content">
             <p>Nội dung cuốn sách”Dấu chân trên cát” là lời tự thuật của Sinuhe kể về cuộc đời của mình. Xen lẫn vào đó là một số tình tiết liên quan đến văn hóa, đời sống và những giá trị tâm linh của Ai Cập cổ đại. Sinuhe là con của một người y sĩ nổi tiếng chuyên chữa bệnh cho người nghèo không lấy tiền. Còn mẹ ông xuất thân từ gia đình danh gia vọng tộc nhưng quyết lựa chọn một cuộc sống thanh bạch rời xa cuộc sống giàu sang phú quý. Vì thế, ngay từ thuở nhỏ Sinuhe đã theo đuổi theo đuổi con đường y sĩ và lối sống thanh bạch như cha mẹ mình</p>
@@ -348,7 +350,7 @@
                 <h5 class="card-title">Hoa Sen Trên Tuyết</h5>
               </a>
               <a href="#bookother">
-                <p class="card-text">Hoa sen trên tuyết là những câu chuyện gần gũi, bình dik được kể lại qua lời kể của người đàn ông từng trải qua những nấc thang địa vị của cuộc đời</p>
+                <p class="card-text">Hoa sen trên tuyết là những câu chuyện gần gũi, bình dị được kể lại qua lời kể của người đàn ông từng trải qua những nấc thang địa vị của cuộc đời</p>
               </a>
                 <p class="card-text"><small class="text-muted">27 tháng 05 năm 2022</small></p>
             </div>
@@ -639,6 +641,17 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
   </body>
 
 </html>
